@@ -1,0 +1,17 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"target": "ESNext",
+		"outDir": "out",
+		"lib": [
+			"ESNext",
+		],
+		"sourceMap": true,
+		"rootDir": "src",
+		"strict": true,
+		"baseUrl": "src",
+	},
+	"exclude": [
+		"node_modules",
+	],
+}
