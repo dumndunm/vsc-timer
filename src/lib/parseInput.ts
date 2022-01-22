@@ -1,4 +1,4 @@
-import { TimeUnits, DEFAULT_TIME_UNITS } from 'modules/timer';
+import { TimeUnits, DEFAULT_TIME_UNITS } from '../modules/timer';
 
 const getTimeQuantity = (input: string): number => {
   return Number(input.slice(0, -1));

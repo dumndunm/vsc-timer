@@ -3,8 +3,8 @@ import type {
   CommandT,
   CommandsT,
   CommandTitlesEnum,
-} from 'modules/commands';
-import { CommandsEnum } from 'modules/commands';
+} from '../modules/commands';
+import { CommandsEnum } from '../modules/commands';
 
 const registerCommand = (
   command: CommandsEnum,

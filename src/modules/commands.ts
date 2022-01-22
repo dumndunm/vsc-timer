@@ -1,5 +1,5 @@
 import * as vscode from 'vscode';
-import { TimerStateEnum, Timer } from 'modules/timer';
+import { TimerStateEnum, Timer } from './timer';
 
 import {
   executeCommand,
@@ -8,10 +8,10 @@ import {
   patchForQuickPick,
   showInformationMessage,
   patchForInformationMessageButton,
-} from 'lib/vscode';
-import { validateInput } from 'lib/validateInput';
-import { parseInput } from 'lib/parseInput';
-import { getCommandsAccordingState, isCommandTitle, onCommandChoice } from 'lib/commands';
+} from '../lib/vscode';
+import { validateInput } from '../lib/validateInput';
+import { parseInput } from '../lib/parseInput';
+import { getCommandsAccordingState, isCommandTitle, onCommandChoice } from '../lib/commands';
 
 const INPUT_BOX_PLACEHOLDER =
   'Enter the time value, e.g.: "5s" - 5 seconds, "2m" - 2 minutes, "1h" - 1 hour';

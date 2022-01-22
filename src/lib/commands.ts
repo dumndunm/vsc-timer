@@ -1,8 +1,8 @@
 import * as vscode from 'vscode';
-import type { CommandsT, CommandT } from 'modules/commands';
-import { ALWAYS_ACCESSIBLE, CommandTitlesEnum } from 'modules/commands';
-import { TimerStateEnum } from 'modules/timer';
-import { executeCommand, registerCommand } from 'lib/vscode';
+import type { CommandsT, CommandT } from '../modules/commands';
+import { ALWAYS_ACCESSIBLE, CommandTitlesEnum } from '../modules/commands';
+import { TimerStateEnum } from '../modules/timer';
+import { executeCommand, registerCommand } from './vscode';
 
 const getCommandsAccordingState = (
   commands: CommandsT,
