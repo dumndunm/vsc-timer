@@ -1,6 +1,7 @@
 {
   "name": "vsc-timer",
   "displayName": "Timer",
+  "icon": "chronos.png",
   "description": "A simple timer to control your time",
   "version": "0.0.0",
   "repository": {
