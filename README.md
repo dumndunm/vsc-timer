@@ -5,8 +5,21 @@ Feel free to submit any issues you may have via the issue tracker.
 
 ## Installation
 
-When identifying an extension, provide the full name of the form `publisher.timer`.
-See Extension Marketplace for more information on the multiple ways of installing VSCode extensions.
+You can install locally.
+```sh
+npm i -g vsce
+
+# in vsc-timer directory
+vsce package
+code --install-extension vsc-timer-0.0.0.vsix
+```
+### For use "code" in terminal
+1. Launch VS Code.
+2. Command + Shift + P to open the Command Palette.
+3. Type shell command, to find the Shell Command: Install 'code' command in PATH and select to install it.
+4. Restart your terminal.
+
+It will soon be available on the marketplace.
 
 ## How it works
 
