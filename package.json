@@ -1,14 +1,19 @@
 {
-  "name": "timer",
+  "name": "vsc-timer",
   "displayName": "Timer",
   "description": "A simple timer to control your time",
-  "version": "0.0.1",
-  "engines": {
-    "vscode": "^1.61.0"
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leonovi/vsc-timer.git"
   },
+  "publisher": "leonovi",
   "categories": [
     "Other"
   ],
+  "engines": {
+    "vscode": "^1.61.0"
+  },
   "activationEvents": [
     "onCommand:timer.callTimer"
   ],
@@ -32,8 +37,7 @@
     "compile": "tsc -p ./",
     "watch": "tsc -watch -p ./",
     "pretest": "npm run compile && npm run lint",
-    "lint": "eslint src --ext ts",
-    "test": "node ./out/test/runTest.js"
+    "lint": "eslint src --ext ts"
   },
   "devDependencies": {
     "@types/node": "14.x",
